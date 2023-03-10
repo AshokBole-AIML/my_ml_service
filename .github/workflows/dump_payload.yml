@@ -2,7 +2,7 @@ name: Dump event payload
 
 on:
   issues:
-    types: [opened, edited, deleted]
+    types: [opened, edited]
 
 jobs:
   Comment:
